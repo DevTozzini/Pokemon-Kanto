@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body,html{
+
+    background-color: black;
+    padding: 0;
+       
+}
+
+h1{
+
+
+    background-color: rgba(255, 255, 255, 0.123);
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    color: gold;
+    border: 1px solid gold;
+    font-family:'DynaPuff', cursive;
+
+}
+
+p{
+
+  color: white;
+  padding-top: 5px;
+  font-family:monospace;
+  font-size: 16px;
+
+}
+
+.pokemon{
+
+     background-color: rgba(255, 255, 255, 0.123);
+     width: 200px;
+     height: 250px;
+     border-radius: 2px;
+     border-bottom: 1px solid gold;
+     border-top: 1px solid gold;
+     border-left: 1px solid grey;
+     border-right: 1px solid grey;
+     text-align: center;
+     display:inline-block;
+     margin: auto;
+     
+}
+
+.pokemon:hover{
+
+    background-color: gold;
+    transform:scale(0.9);
+    border-radius: 10px;
+
+}
+
+#char{
+    
+    width: 80px;
+    
+ 
+}
+
+#meleon{
+
+    width: 74px;
+    
+}
+
+#zard{
+
+    width: 99px;
+
+}
+
+#scor{
+    
+    width: 80px;
+    
+}
+
+#wart{
+
+    width: 74px;
+    padding-top: 3px;
+    
+}
+
+#blast{
+
+    width: 81px;
+    
+}
+
+#buba{
+    
+    width: 84px;
+    
+}
+
+#veno{
+
+    width: 74px;
+    padding-top: 3px;
+    
+}
+
+#ivi{
+
+    width: 65px;
+    
+}
+
+.numero{
+
+  text-align: start;
+  margin-top: 0;
+  padding: 4px;
+  background-color: gold;
+  width: 25px;
+  text-align:center;
+  border-bottom-right-radius: 4px;
+  color: black;
+  font-style:oblique;
+  font-weight: 700;
+}
+
+.fire{
+
+   font-size: 12px;
+   text-align: center;
+   background-color: red;
+   padding: 7px;
+   margin-top: 1px;
+   display: inline-block;
+   border-radius: 3px;
+}
+
+.flying{
+
+   font-size: 12px;
+   text-align: center;
+   background-color: rgb(110, 154, 211);
+   padding: 7px;
+   margin-top: 1px;
+   display: inline-block;
+   border-radius: 3px;
+
+}
+
+.water{
+
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(27, 125, 252);
+    padding: 7px;
+    margin-top: 1px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.grass{
+
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(14, 160, 9);
+    padding: 7px;
+    margin-top: 1px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.poison{
+
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(124, 6, 118);
+    padding: 7px;
+    margin-top: 1px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+#mae{
+    
+    display: flex;
+    margin: 20px;
+}
+
+.pokeball{
+
+ width: 20px;
+
+}
